@@ -190,7 +190,7 @@ document.getElementById("seatNumber").addEventListener("input", function () {
 
     const amount = document.querySelector(".cart-total").textContent.replace("₹", "").trim();
     const paymentStatus = "Paid";
-    const BASE_URL = "https://pixelplates-backend.onrender.com";
+    const BASE_URL = "https://qr-ordering-system-backend.onrender.com";
 
 fetch(`${BASE_URL}/submit-order`, {
   method: "POST",
